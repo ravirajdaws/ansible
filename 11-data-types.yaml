@@ -10,7 +10,7 @@
       Devops: 3 # number
       aws: 2
       Dockers: 1
-    Realproject: false # boolean
+    Realproject: true # boolean
   tasks:
   - name: print variables
     ansible.builtin.debug:
